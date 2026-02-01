@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Al-Bohasi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for better typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body data-theme="dark">
+    <!-- Header Controls -->
+    <div class="header-controls">
+        <button id="theme-toggle" class="control-btn">
+            <span class="theme-icon">🌙</span>
+            <span class="lang-text">Theme</span>
+        </button>
+        <button id="language-toggle" class="control-btn">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">EN</span>
+        </button>
+    </div>
+
+    <!-- Profile Section -->
+    <section class="profile-section">
+        <div class="container">
+            <div class="profile-card">
+                <img id="profile-image" src="profile_picture.png" alt="Profile" class="profile-image">
+                <div class="profile-details">
+                    <h1 id="profile-name" class="profile-name">Mohammad Al-Bohasi</h1>
+                    <p id="profile-headline" class="profile-headline">Mechatronics Engineering Student</p>
+                    <div class="profile-meta">
+                        <div class="profile-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span id="profile-location">Amman, Jordan</span>
+                        </div>
+                        <div class="profile-age">
+                            <i class="fas fa-birthday-cake"></i>
+                            <span id="profile-age">18 years old</span>
+                        </div>
+                        <div class="profile-status">
+                            <i class="fas fa-user"></i>
+                            <span id="profile-status">Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabs Navigation -->
+    <nav class="tabs-nav">
+        <div class="container">
+            <ul class="tabs-list">
+                <li class="tab-item active" data-tab="about">
+                    <i class="fas fa-user tab-icon"></i>
+                    <span>About</span>
+                </li>
+                <li class="tab-item" data-tab="education">
+                    <i class="fas fa-graduation-cap tab-icon"></i>
+                    <span>Education</span>
+                </li>
+                <li class="tab-item" data-tab="projects">
+                    <i class="fas fa-code tab-icon"></i>
+                    <span>Projects</span>
+                </li>
+                <li class="tab-item" data-tab="skills">
+                    <i class="fas fa-tools tab-icon"></i>
+                    <span>Skills</span>
+                </li>
+                <li class="tab-item" data-tab="certifications">
+                    <i class="fas fa-certificate tab-icon"></i>
+                    <span>Certifications</span>
+                </li>
+                <li class="tab-item" data-tab="contact">
+                    <i class="fas fa-envelope tab-icon"></i>
+                    <span>Contact</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- About Tab -->
+            <div id="about" class="tab-content active">
+                <div class="content-section">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="card">
+                        <p id="about-summary" class="about-text">Loading...</p>
+                    </div>
+                </div>
+                <div class="content-section">
+                    <h2 class="section-title">Interests</h2>
+                    <div id="interests-grid" class="interests-grid">
+                        <!-- Interests will be loaded here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Tab -->
+            <div id="education" class="tab-content">
+                <div class="content-section">
+                    <h2 class="section-title">Education</h2>
+                    <div class="card">
+                        <h3 id="education-degree" class="card-title">Loading...</h3>
+                        <p id="education-university" class="card-text"></p>
+                        <p id="education-faculty" class="card-text"></p>
+                        <p id="education-level" class="card-text"></p>
+                        <p id="education-enrollment" class="card-text"></p>
+                        <p id="education-gpa" class="card-text"></p>
+                        <p id="education-status" class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Tab -->
+            <div id="projects" class="tab-content">
+                <div class="content-section">
+                    <h2 class="section-title">Software Projects</h2>
+                    <div id="projects-grid" class="projects-grid">
+                        <!-- Projects will be loaded here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Tab -->
+            <div id="skills" class="tab-content">
+                <div class="content-section">
+                    <h2 class="section-title">Programming Languages</h2>
+                    <div id="programming-languages-grid" class="skills-grid"></div>
+                </div>
+                <div class="content-section">
+                    <h2 class="section-title">Frameworks & Libraries</h2>
+                    <div id="frameworks-grid" class="skills-grid"></div>
+                </div>
+                <div class="content-section">
+                    <h2 class="section-title">Domains</h2>
+                    <div id="domains-grid" class="skills-grid"></div>
+                </div>
+                <div class="content-section">
+                    <h2 class="section-title">Tools & Platforms</h2>
+                    <div id="tools-grid" class="skills-grid"></div>
+                </div>
+                <div class="content-section">
+                    <h2 class="section-title">Soft Skills</h2>
+                    <div id="soft-skills-grid" class="skills-grid"></div>
+                </div>
+            </div>
+
+            <!-- Certifications Tab -->
+            <div id="certifications" class="tab-content">
+                <div class="content-section">
+                    <h2 class="section-title">Certifications</h2>
+                    <div id="certifications-list" class="certifications-list">
+                        <!-- Certifications will be loaded here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Tab -->
+            <div id="contact" class="tab-content">
+                <div class="content-section">
+                    <h2 class="section-title">Contact Information</h2>
+                    <div class="card">
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <div class="contact-text">
+                                Phone: <span id="contact-phone">+962785416479</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <div class="contact-text">
+                                Email: <span id="contact-email-primary">albohasi.mohammad@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <div class="contact-text">
+                                Alternative: <span id="contact-email-secondary">albohasi.mo@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-birthday-cake contact-icon"></i>
+                            <div class="contact-text">
+                                Age: <span id="contact-age">18 years old</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <div class="contact-text">
+                                Location: <span id="contact-location">Amman, Jordan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-section">
+                    <h2 class="section-title">Social Links</h2>
+                    <div class="social-links">
+                        <a id="linkedin-link" href="#" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin social-icon"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a id="github-link" href="#" target="_blank" class="social-link">
+                            <i class="fab fa-github social-icon"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a id="credly-link" href="#" target="_blank" class="social-link">
+                            <i class="fas fa-certificate social-icon"></i>
+                            <span>Credly</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="content-section">
+                    <h2 class="section-title">Send Message</h2>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="form-name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="form-email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="form-message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane btn-icon"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2024 Mohammad Al-Bohasi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="data-loader.js"></script>
+    <script src="tab-manager.js"></script>
+</body>
+</html>

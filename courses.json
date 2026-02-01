@@ -1,0 +1,94 @@
+{
+  "certifications": [
+    {
+      "id": 1,
+      "title": "Python Essentials 1",
+      "provider": "Cisco Networking Academy",
+      "category": "Programming",
+      "completion_date": "2025-07-23",
+      "badge_url": "https://www.credly.com/earner/earned/badge/299e4812-9dc2-474f-8e1b-6d4801a92fac"
+    },
+    {
+      "id": 2,
+      "title": "Python Essentials 2",
+      "provider": "Cisco Networking Academy",
+      "category": "Programming",
+      "completion_date": "2025-08-10",
+      "badge_url": "https://www.credly.com/earner/earned/badge/e9577b09-0f89-4646-bcac-1ca7f228fe6b"
+    },
+    {
+      "id": 3,
+      "title": "Python for Data Science",
+      "provider": "IBM",
+      "category": "Data Science",
+      "completion_date": "2025-09-02",
+      "badge_url": "https://www.credly.com/earner/earned/badge/13115626-1891-48ef-8cd4-3e41f031db0b"
+    },
+    {
+      "id": 4,
+      "title": "Networking Basics",
+      "provider": "Cisco Networking Academy",
+      "category": "Networking",
+      "completion_date": "2025-09-18",
+      "badge_url": "https://www.credly.com/earner/earned/badge/217d5484-0fca-4296-9aef-25e1aa380d37"
+    },
+    {
+      "id": 5,
+      "title": "Data Visualization Using Python",
+      "provider": "IBM",
+      "category": "Data Science",
+      "completion_date": "2025-09-14",
+      "badge_url": "https://www.credly.com/earner/earned/badge/0b6630b2-06a7-441a-84eb-50a262da795a"
+    },
+    {
+      "id": 6,
+      "title": "Data Analysis Using Python",
+      "provider": "IBM",
+      "category": "Data Science",
+      "completion_date": "2025-10-08",
+      "badge_url": "https://www.credly.com/earner/earned/badge/5d618a36-c1a3-468c-a95c-1199433e3aba"
+    },
+    {
+      "id": 7,
+      "title": "Artificial Intelligence Fundamentals",
+      "provider": "IBM",
+      "category": "Artificial Intelligence",
+      "completion_date": "2025-12-23",
+      "badge_url": "https://www.credly.com/earner/earned/badge/8586e5af-384e-4bac-a1ee-a3a90c3aeb56"
+    },
+    {
+      "id": 8,
+      "title": "AI Fundamentals",
+      "provider": "Cisco Networking Academy",
+      "category": "Artificial Intelligence",
+      "completion_date": "2025-12-23",
+      "badge_url": "https://www.credly.com/earner/earned/badge/e851ab56-4db7-431a-8db6-dcdba9487691"
+    },
+    {
+      "id": 9,
+      "title": "Introduction to Cybersecurity",
+      "provider": "Cisco",
+      "category": "Cybersecurity",
+      "completion_date": "2025-07-16",
+      "badge_url": "https://www.credly.com/earner/earned/badge/a5745ff1-dab8-4454-8148-662330a3e0a8"
+    },
+    {
+      "id": 10,
+      "title": "AI for Beginner",
+      "provider": "HP LIFE",
+      "category": "Artificial Intelligence",
+      "completion_date": "2025-12-30"
+    },
+    {
+      "id": 11,
+      "title": "Business Email",
+      "provider": "HP LIFE",
+      "category": "Professional Skills",
+      "completion_date": "2025-11-15"
+    }
+  ],
+  "credly_profiles": [
+    "https://www.credly.com/users/mohammad-albohasi",
+    "https://www.credly.com/users/mohammad-al-bohasi"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "software_projects": [
+    {
+      "id": 1,
+      "name": "Advanced Matrix Calculator",
+      "type": {
+        "en": "Web Application",
+        "ar": "تطبيق ويب"
+      },
+      "technologies": ["HTML", "JavaScript"],
+      "description": {
+        "en": "A standalone web-based advanced matrix calculator that supports addition, multiplication, inverse, determinant, transpose, rank, and scalar operations. Features responsive UI, real-time validation, processing confirmation, and result export.",
+        "ar": "حاسبة مصفوفات متقدمة تعمل على الويب بشكل مستقل، تدعم الجمع، الضرب، المعكوس، المحدد، النقل، الرتبة، والعمليات العددية. تتميز بواجهة متجاوبة، تحقق في الوقت الفعلي، تأكيد العمليات، وتصدير النتائج."
+      },
+      "url": "https://bohasi.github.io/Advanced-Matrix-Calculator-/",
+      "status": {
+        "en": "Completed",
+        "ar": "مكتمل"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Matrix Calculator (Desktop Version)",
+      "type": {
+        "en": "Desktop Application",
+        "ar": "تطبيق سطح المكتب"
+      },
+      "technologies": ["Python", "NumPy", "PyQt5"],
+      "description": {
+        "en": "PyQt5-based desktop matrix calculators using NumPy for linear algebra. Includes input validation, calculation controls, result display, reset functionality, and saving outputs to file.",
+        "ar": "حاسبة مصفوفات لسطح المكتب مبنية على PyQt5 باستخدام مكتبة NumPy للجبر الخطي. تتضمن التحقق من الإدخال، عناصر التحكم في الحساب، عرض النتائج، إعادة التعيين، وحفظ النتائج في ملف."
+      },
+      "status": {
+        "en": "Completed",
+        "ar": "مكتمل"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Advanced Matrix Calculator Pro",
+      "type": {
+        "en": "Web Application",
+        "ar": "تطبيق ويب"
+      },
+      "technologies": ["HTML", "JavaScript", "Python", "NumPy"],
+      "description": {
+        "en": "A professional web-based matrix calculator with modern UI, dark/light mode, interactive grids, LU/QR/SVD decompositions, calculation history, export options, and linear system solving.",
+        "ar": "حاسبة مصفوفات احترافية على الويب مع واجهة حديثة، وضع الليل/النهار، جداول تفاعلية، تحليل LU/QR/SVD، سجل العمليات، خيارات التصدير، وحل الأنظمة الخطية."
+      },
+      "url": "https://bohasi.github.io/Advanced-Matrix-Calculator-Pro/",
+      "status": {
+        "en": "Completed",
+        "ar": "مكتمل"
+      }
+    },
+    {
+      "id": 4,
+      "name": "ThermoGuard",
+      "type": {
+        "en": "Desktop Application",
+        "ar": "تطبيق سطح المكتب"
+      },
+      "technologies": ["Python", "Linux", "System Monitoring"],
+      "description": {
+        "en": "An offline Linux system monitor with real-time graphs, hardware diagnostics, sensor tracking, power analytics, and local AI assistance via Ollama.",
+        "ar": "مراقب نظام Linux يعمل بدون اتصال بالإنترنت، يعرض رسوم بيانية في الوقت الحقيقي، تشخيص الأجهزة، تتبع الحساسات، تحليلات الطاقة، ومساعدة AI محلية عبر Ollama."
+      },
+      "status": {
+        "en": "Completed",
+        "ar": "مكتمل"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Mo-Crypt",
+      "type": {
+        "en": "Desktop Application",
+        "ar": "تطبيق سطح المكتب"
+      },
+      "technologies": ["Python", "PyQt5", "Cryptography"],
+      "description": {
+        "en": "An offline encryption tool using AES-256 with password hardening, text/file encryption modes, and secure output.",
+        "ar": "أداة تشفير تعمل بدون اتصال بالإنترنت باستخدام AES-256 مع تقوية كلمات المرور، أوضاع تشفير النصوص/الملفات، وإخراج آمن."
+      },
+      "status": {
+        "en": "Completed",
+        "ar": "مكتمل"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Mo-QR",
+      "type": {
+        "en": "Desktop Application",
+        "ar": "تطبيق سطح المكتب"
+      },
+      "technologies": ["Python", "PyQt5"],
+      "description": {
+        "en": "A lightweight offline QR code generator that creates and saves QR codes from URLs instantly.",
+        "ar": "مولد رموز QR خفيف الوزن يعمل بدون إنترنت ويقوم بإنشاء وحفظ رموز QR من الروابط فورًا."
+      },
+      "status": {
+        "en": "Completed",
+        "ar": "مكتمل"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Mo-Calc",
+      "type": {
+        "en": "Desktop Application",
+        "ar": "تطبيق سطح المكتب"
+      },
+      "technologies": ["Python", "PyQt5"],
+      "description": {
+        "en": "A minimalist offline calculator supporting advanced expressions and real-time evaluation.",
+        "ar": "آلة حاسبة بسيطة تعمل بدون إنترنت تدعم التعابير المتقدمة والتقييم في الوقت الحقيقي."
+      },
+      "status": {
+        "en": "Completed",
+        "ar": "مكتمل"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Mo-GP",
+      "type": {
+        "en": "Desktop Application",
+        "ar": "تطبيق سطح المكتب"
+      },
+      "technologies": ["Python", "PyQt5", "Security"],
+      "description": {
+        "en": "An offline password generator with multiple security levels and clipboard support.",
+        "ar": "مولد كلمات مرور يعمل بدون إنترنت مع مستويات أمان متعددة ودعم النسخ إلى الحافظة."
+      },
+      "status": {
+        "en": "Completed",
+        "ar": "مكتمل"
+      }
+    }
+  ],
+
+  "hardware_projects": []
+}
+

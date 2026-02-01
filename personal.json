@@ -1,0 +1,45 @@
+{
+  "personal": {
+    "full_name": {
+      "en": "Mohammad Izzedden Ramadan Al-Bohasi",
+      "ar": "محمد عز الدين رمضان البحيصي"
+    },
+    "birth_date": "2006-10-03",
+    "gender": {
+      "en": "Male",
+      "ar": "ذكر"
+    },
+    "location": {
+      "city": {
+        "en": "Amman",
+        "ar": "عمان"
+      },
+      "country": {
+        "en": "Jordan",
+        "ar": "الأردن"
+      }
+    },
+    "contact": {
+      "phone": "+962785416479",
+      "emails": [
+        "albohasi.mohammad@gmail.com",
+        "albohasi.mo@gmail.com"
+      ]
+    },
+    "profile_image": {
+      "src": "profile_picture.png",
+      "alt": {
+        "en": "Mohammad Al-Bohasi profile picture",
+        "ar": "صورة الملف الشخصي لمحمد البحيصي"
+      }
+    },
+    "social_links": {
+      "linkedin": "https://www.linkedin.com/in/mohammad-albohasi-787151341",
+      "credly": [
+        "https://www.credly.com/users/mohammad-albohasi",
+        "https://www.credly.com/users/mohammad-al-bohasi"
+      ],
+      "github": "https://github.com/bohasi"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "education": {
+    "degree": {
+      "en": "Bachelor of Mechatronics Engineering",
+      "ar": "بكالوريوس هندسة الميكاترونكس"
+    },
+    "level": {
+      "en": "Sophomore",
+      "ar": "السنة الثانية"
+    },
+    "faculty": {
+      "en": "Faculty of Engineering Technology",
+      "ar": "كلية الهندسة التكنولوجية"
+    },
+    "university": {
+      "en": "Al-Balqa Applied University",
+      "ar": "جامعة البلقاء التطبيقية"
+    },
+    "enrollment": {
+      "month": {
+        "en": "October",
+        "ar": "أكتوبر"
+      },
+      "year": 2024
+    },
+    "gpa": {
+      "value": 3.41,
+      "scale": 4.0
+    },
+    "status": {
+      "en": "Currently studying",
+      "ar": "قيد الدراسة"
+    },
+    "country": {
+      "en": "Jordan",
+      "ar": "الأردن"
+    }
+  }
+}
