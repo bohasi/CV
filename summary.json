@@ -1,15 +1,15 @@
 {
   "about": {
     "headline": "Mechatronics Engineering Student | Software Developer | AI & Data Enthusiast",
-"summary": 
-     "I am a sophomore Mechatronics Engineering student at Al-Balqa Applied University with a strong focus on software development, artificial intelligence, and data-driven systems. I have solid experience in Python programming, desktop application development using PyQt5, and building standalone web applications. My interests lie in designing efficient, secure, and offline-capable systems that bridge software intelligence with real-world engineering applications. I am continuously expanding my knowledge in AI, data science, cybersecurity fundamentals, and system-level programming, aiming to build robust, scalable, and intelligent solutions.",
-  "interests": [
+    "summary": "I am a sophomore Mechatronics Engineering student at Al-Balqa Applied University with a strong focus on software development, artificial intelligence, and data-driven systems. I have solid experience in Python programming, desktop application development using PyQt5, and building standalone web applications. My interests lie in designing efficient, secure, and offline-capable systems that bridge software intelligence with real-world engineering applications. I am continuously expanding my knowledge in AI, data science, cybersecurity fundamentals, system-level programming, and Product Information Management (PIM), aiming to build robust, scalable, and intelligent solutions.",
+    "interests": [
       "Artificial Intelligence",
       "Data Science & Analysis",
       "Software Engineering",
       "Cybersecurity Fundamentals",
       "System Monitoring & Automation",
-      "Applied Engineering Solutions"
+      "Applied Engineering Solutions",
+      "Product Information Management (PIM)"
     ]
   },
   "skills": {
@@ -32,14 +32,16 @@
       "Data Analysis",
       "Artificial Intelligence Fundamentals",
       "Cybersecurity Basics",
-      "System Monitoring (Linux)"
+      "System Monitoring (Linux)",
+      "Product Information Management (PIM)"
     ],
     "tools_platforms": [
       "Linux",
       "Git & GitHub",
       "Cisco Networking Academy",
       "IBM SkillsBuild",
-      "HP LIFE"
+      "HP LIFE",
+      "Credly"
     ],
     "soft_skills": [
       "Problem Solving",
