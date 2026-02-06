@@ -85,6 +85,14 @@
       "provider": "HP LIFE",
       "category": "Professional Skills",
       "completion_date": "2025-11-15"
+    },
+    {
+      "id": 12,
+      "title": "Product Information Management (PIM)",
+      "provider": "Credly",
+      "category": "Product Management",
+      "completion_date": "2026-02-06",
+      "badge_url": "https://www.credly.com/badges/aab1777f-cc47-4e1d-868d-752b299fa111/public_url"
     }
   ],
   "credly_profiles": [
